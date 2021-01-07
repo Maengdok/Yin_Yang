@@ -7,6 +7,7 @@
 body {
     background: rgb(66, 66, 66);
 }
+
 .yin_yang {
     display: flex;
     align-items: center;
@@ -19,7 +20,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%) rotateZ(30deg);
 }
-    
+
 .yin_yang:before, .yin_yang:after {
     flex: 1;
     border: solid 49.98px white;
@@ -28,7 +29,7 @@ body {
     background: black;
     content: '';
 }
-    
+
 .yin_yang:after {
     border-color: black;
     background: white;
